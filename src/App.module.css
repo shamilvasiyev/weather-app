@@ -1,0 +1,106 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.search_bar {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.search_bar input {
+  font-size: 25px;
+  padding: 10px 5px;
+  background-color: #5756565e;
+  border: 1px solid rgba(163, 163, 163, 0.767);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  color: white;
+}
+
+.search_bar button {
+  background-color: rgba(248, 148, 6, 1);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 17px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  padding: 20px 10px;
+  border: 1px solid #f89406;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  color: white;
+  transition: 0.5s all;
+  width: 280px;
+}
+
+.item h1 {
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid rgba(182, 244, 255, 0.39);
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.item img {
+  width: 100px;
+  align-self: center;
+}
+
+.item > span {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.temp_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(182, 244, 255, 0.178);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.extra_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra_info span {
+  margin-right: 10px;
+}
+
+.feelTemp {
+  margin-bottom: 20px;
+}
+
+.temp {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.error {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(248, 148, 6, 1);
+}
