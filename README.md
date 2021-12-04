@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+## About this project
+
+With the application, you can see the daily weather conditions of more than 200 thousand cities. This application was made with React.js.
+
+## Overview
+
+https://user-images.githubusercontent.com/83605645/144720879-7ba32a9b-3d6c-4cdc-ab30-6f87a17b3c8f.mp4
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
