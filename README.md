@@ -9,8 +9,6 @@ With the application, you can see the daily weather conditions of more than 200 
 https://user-images.githubusercontent.com/83605645/144721333-513c4980-6589-4cec-b9e1-8f580c97559b.mp4
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
